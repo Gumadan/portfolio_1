@@ -18,26 +18,64 @@ body {
 }
 /*раздел "Our Story"*/
 .story {
-
+    padding: 50px 0;
 }
 .story_left {
-
+    max-width: 406px;
+    margin-right: 50px;
 }
 .story_title_2 {
+    color: #48555B;
     text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 50px 0;
+}
+.story_title_2:after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background-color: #00A4E5;
+    display: block;
+    margin: 10px auto 0;
+}
+.story_inner {
+    display: flex;
+    justify-content: center;
 }
 .story_title_3 {
-    
+    color: #48555B;
+    font-weight: bold;
+    font-size: 20px;
 }
 .accent-color {
-
+    color: #16ACE8;
 }
-.story_test {
-
+.story_text {
+    color: #48555B;
 }
 .story_right {
-
+    display: flex;
+    align-items: flex-end;
 }
 .story_item {
-
+    padding: 15px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    width: 140px;
+    height: 224px;
+    margin-right: 20px;
+}
+.story_item:nth-child(1) {
+    background-image: url(../img/we_plan.png);
+}
+.story_item:nth-child(2) {
+    background-image: url(../img/we_manage.png);
+}
+.story_item:nth-child(3) {
+    background-image: url(../img/we_build.png);
+    margin-right: 0px;
 }
