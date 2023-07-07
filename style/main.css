@@ -1,5 +1,6 @@
 /*общие стили*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 html {
     box-sizing: border-box;
 }
@@ -16,6 +17,57 @@ body {
     margin: 0 auto;
     padding: 0 250px;
 }
+
+/*logo*/
+
+.main_header {
+    padding: 41px;
+    margin: auto;
+    width: 1438px;
+    height: 769px;
+    background: url(/img/header_bg.jpg);
+}
+.container__logo{
+    text-align: center;   
+}
+.logo {
+    width: 102px;
+    height: 23px;
+}
+.main_logo_text {
+    margin: auto;
+    padding-top: 317px;
+    color: #FFF;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 5.709px;
+}
+.logo_text_1 {
+    margin: auto;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.logo_text_info {
+    margin: auto;
+    text-transform: uppercase;
+    padding-top: 200px;
+    color: #FFF;
+    text-align: center;
+    font-size: 11px;
+    font-family: Open Sans;
+    font-weight: 600;
+    letter-spacing: 3.7px;
+}
+
 /*раздел "Our Story"*/
 .story {
     padding: 50px 0;
